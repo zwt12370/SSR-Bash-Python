@@ -198,6 +198,7 @@ if [ -e /usr/local/bin/ssr ];then
 	rm -f /usr/local/bin/ssr
 	sleep 1s
 	echo "开始部署"
+	mkdir /usr/local/shadowsocksr
 	cd /usr/local/shadowsocksr
 	git pull
     git checkout manyuser
